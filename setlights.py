@@ -16,7 +16,7 @@ parser = argparse.ArgumentParser(description='control lights. Both state and bri
                                  epilog='Examples of Use:\n----------------\nsetlights.py -s on -b 56',
                                  formatter_class=CustomFormatter)
 requiredNamed = parser.add_argument_group('required named argument')
-requiredNamed.add_argument('-s', '--state', dest='state', required=False, help='[Input] lights <on> or <off>)
+requiredNamed.add_argument('-s', '--state', dest='state', required=False, help='[Input] lights on or off'
 requiredNamed.add_argument('-b', '--brightness', dest='brightness', required=False, help='[Input] brightness of lights: 0-100')
 results = parser.parse_args()
 print results
