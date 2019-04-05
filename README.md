@@ -1,7 +1,8 @@
 <img src="https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg">
 
 # rotarylights
-control LIFX bulbs with Pi using rotary encoder.
+[control LIFX bulbs with Pi using rotary encoder](https://www.youtube.com/watch?v=NKMdHzhjUak)
+
 
 run using:
 
